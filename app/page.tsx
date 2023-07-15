@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-export default function index() {
+export default function Index() {
   const [tokenDetails, setTokenDetails] = useState({});
   const handleChange = (e: any) => {
     const { name, value } = e.target;
