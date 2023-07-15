@@ -61,7 +61,7 @@ export default function Index() {
                     placeholder="e.g. NEW Token"
                     autoComplete="given-name"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default function Index() {
                     autoComplete="symbol"
                     placeholder="e.g. NEW"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function Index() {
                     autoComplete="decimals"
                     placeholder="e.g. 10"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function Index() {
                     autoComplete="total-supply"
                     placeholder="e.g. 1000000"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -136,7 +136,7 @@ export default function Index() {
                     autoComplete="router"
                     placeholder="e.g. Select Router Exchange"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 py-1.5 px-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6 [&_*]:text-black"
+                    className="block w-full rounded-md border-0 bg-white/5 py-1.5 px-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6 [&_*]:text-black"
                   >
                     <option>ROUTE 1</option>
                     <option>ROUTE 2</option>
@@ -154,7 +154,7 @@ export default function Index() {
                     name="auto-burn"
                     type="checkbox"
                     onChange={handleChange}
-                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-indigo-600 focus:ring-indigo-600 focus:ring-offset-gray-900"
+                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-red-600 focus:ring-red-600 focus:ring-offset-gray-900"
                   />
                 </div>
                 <div className="text-sm leading-6">
@@ -176,7 +176,7 @@ export default function Index() {
                     placeholder="e.g. 1"
                     autoComplete="burn-fee"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default function Index() {
                     autoComplete="burn-wallet"
                     placeholder="e.g. 0x0000000000000...ad"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -209,7 +209,7 @@ export default function Index() {
                     name="auto-liquidity"
                     type="checkbox"
                     onChange={handleChange}
-                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-indigo-600 focus:ring-indigo-600 focus:ring-offset-gray-900"
+                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-red-600 focus:ring-red-600 focus:ring-offset-gray-900"
                   />
                 </div>
                 <div className="text-sm leading-6">
@@ -231,7 +231,7 @@ export default function Index() {
                     autoComplete="liquidity-fee"
                     placeholder="e.g. 1"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -245,7 +245,7 @@ export default function Index() {
                     name="marketing"
                     type="checkbox"
                     onChange={handleChange}
-                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-indigo-600 focus:ring-indigo-600 focus:ring-offset-gray-900"
+                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-red-600 focus:ring-red-600 focus:ring-offset-gray-900"
                   />
                 </div>
                 <div className="text-sm leading-6">
@@ -267,7 +267,7 @@ export default function Index() {
                     placeholder="e.g. 1"
                     autoComplete="marketing-fee"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -286,7 +286,7 @@ export default function Index() {
                     autoComplete="marketing-wallet"
                     placeholder="e.g. 0x0000000000000...ad"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -300,7 +300,7 @@ export default function Index() {
                     name="reward"
                     type="checkbox"
                     onChange={handleChange}
-                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-indigo-600 focus:ring-indigo-600 focus:ring-offset-gray-900"
+                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-red-600 focus:ring-red-600 focus:ring-offset-gray-900"
                   />
                 </div>
                 <div className="text-sm leading-6">
@@ -322,7 +322,7 @@ export default function Index() {
                     placeholder="contract address of the reward token"
                     autoComplete="reward-token"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -341,7 +341,7 @@ export default function Index() {
                     autoComplete="reward-fee"
                     placeholder="e.g. 1"
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 px-2 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -355,7 +355,7 @@ export default function Index() {
                     name="anti-bot"
                     type="checkbox"
                     onChange={handleChange}
-                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-indigo-600 focus:ring-indigo-600 focus:ring-offset-gray-900"
+                    className="h-4 w-4 rounded border-white/10 bg-white/5 text-red-600 focus:ring-red-600 focus:ring-offset-gray-900"
                   />
                 </div>
                 <div className="text-sm leading-6">
@@ -375,7 +375,7 @@ export default function Index() {
           </button>
           <button
             type="submit"
-            className="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+            className="rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500"
           >
             Deploy Token
           </button>

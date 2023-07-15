@@ -2,6 +2,9 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import nero_logo from "../../assets/nero_logo.png";
+import Link from "next/link";
 
 const navigation: any[] = [
   //   { name: "Product", href: "#" },
@@ -20,10 +23,19 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <span className="h-8 w-auto text-white">NEW TOKEN</span>
-          </a>
+          <Link href="#" className="-m-1.5 p-1.5 flex items-center">
+            <span className="sr-only">Nero Token</span>
+            <Image
+              alt="nero_logo"
+              src={nero_logo}
+              className="h-12 w-auto"
+              width={400}
+              height={400}
+            />
+            <span className="w-auto ml-2 text-2xl text-red-500 font-bold">
+              NERO TOKEN
+            </span>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -61,10 +73,19 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <span className="h-8 w-auto text-white">NEW TOKEN</span>
-            </a>
+            <Link href="#" className="-m-1.5 p-1.5 flex items-center">
+              <span className="sr-only">Nero Token</span>
+              <Image
+                alt="nero_logo"
+                src={nero_logo}
+                className="h-12 w-auto"
+                width={400}
+                height={400}
+              />
+              <span className="w-auto ml-2 text-2xl text-red-500 font-bold">
+                NERO TOKEN
+              </span>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-400"
